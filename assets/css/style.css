@@ -175,7 +175,7 @@ h2{
 
 .container_db_partner{
     width: 50%;
-    margin: 5rem auto;
+    margin: 4rem auto;
     text-align: left;
     border: 1px solid black;
     padding: 1rem;
@@ -215,3 +215,38 @@ h2{
     margin: 1rem;
     font-size: 0.8rem;
 }
+
+#dropbox_business{
+    text-align: center;
+}
+
+.operations_db{
+    margin: 2rem auto;
+    width: 60%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: lightseagreen;
+}
+.col4{
+    width: calc((100% / 12) * 4);
+    border: 1PX solid BLACK;
+    padding: 2rem;
+    height: 100%;
+    background-color: lightgray;
+    display: flex;
+}
+
+.row_DB{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.img_dpb{
+    width: 100%;
+}
+.description{
+    padding-top: 5rem;
+   text-align: left;
+}
+
