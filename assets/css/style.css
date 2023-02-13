@@ -7,3 +7,20 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+:root{
+    --db-dark: #000000;
+    --db-light: #ffffff;
+    --db-btn: #0061ff;
+    --db-banner: #b4d0e7;
+    --db-design: #a2d39b;
+    --db-Florida: #0093ce;
+    --db-ASU: #61082b;
+    --db-topps: #ff1c1c;
+    --db-centraldesign: #f5f5f5;
+    --db-WBR: #d5001f;
+    --db-lonelyplanet: #0d2481;
+    --db-hearst: #b4d0e7;
+    --db-clearchanneloutdoor: #ffd830;
+    --db-text: #080808;
+}
