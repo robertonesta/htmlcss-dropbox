@@ -60,38 +60,38 @@ a{
 /* main */
 .intro{
     padding-top: 90px;
-    padding-left: 23rem;
-    padding-right: 23rem;
-    height: 42rem;
+    width: 100%;
+    height: 100%;
     background-color: var(--db-banner);
 }
 
-.intro > .col{
-    padding-top: 6.25rem;
+.card{
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+    border: 1px solid black;
+    padding: 1rem;
 }
-.col h1{
-    padding-top: 1rem;
-    font-size: 2.5rem;
-    padding-right: 5rem;
-    background-color: #ffd830;
-}
-/* secondary row */
-.img{
-    position: relative;
-}
-.intro .col-3{
-    flex-direction: column;
-    justify-content: center;
-    font-size: 0.7rem;
- }
-.intro button{
-    width: 130px;
-}
-.intro img{
-    position: absolute;
-    width: 15rem;
-    top: 0;
-    left: -20px;
+
+h1{
+    font-size: 4rem;
+    font-weight: bold;
 }
 
 
+.colbanner{
+    width: 50%;
+    background-color: #61082b;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 1rem;   
+}
+
+.arrow-down{
+    align-items: flex-end;
+}
+
+img{
+    width: 100%;
+    margin-bottom: -5rem;
+}
