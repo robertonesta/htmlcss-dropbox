@@ -22,7 +22,7 @@ body {
     --db-lonelyplanet: #0d2481;
     --db-hearst: #b4d0e7;
     --db-clearchanneloutdoor: #ffd830;
-    --db-text: #080808;
+    --db-family-text: #600528;
 }
 .row{
     width: 100%;
@@ -264,4 +264,24 @@ h2{
     border: 1px solid black;
     padding: 1rem;
     background-color: #d5001f;
+}
+
+#family{
+    padding-top: 90px;
+    width: 100%;
+    height: 100%;
+    background-color: var(--db-family-text);
+    color: var(--db-family-text);
+}
+
+.col-f{
+    width: 50%;
+}
+.row-f{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+}
+.ta-right{
+    text-align: right;
 }
