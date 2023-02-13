@@ -24,3 +24,28 @@ body {
     --db-clearchanneloutdoor: #ffd830;
     --db-text: #080808;
 }
+.row{
+    width: 100%;
+}
+.d-flex
+{
+    display: flex;
+}
+ul{
+    list-style-type: none;
+}
+
+/* #header */
+header{
+    position: fixed;
+    width: 100%;
+    background-color: #ffd830;
+}
+
+
+header .row{
+    justify-content: space-between;
+}
+header li{
+    padding: 1rem;
+}
