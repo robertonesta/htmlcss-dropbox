@@ -114,11 +114,15 @@ img{
 h2{
     margin: 2rem 0;
 }
+.row_bp{
+    margin-inline: 0px;
+    margin-right: -1rem;
+}
 
 .col_bp_title{
     width: calc((100% / 12) * 4);
     background-color: lightgray;
-    height: 800px;
+    height: 100%;
     border: 1px solid black;
     margin-right: 1rem;
     align-content: center;
@@ -141,5 +145,34 @@ h2{
     border-bottom: 1px solid black;
     width: 100px;
     color: lightgray;
+}
+
+.row_bp_team{
+    margin-top: 2rem;
+    height: 100%;
+    background-color: #ffd830;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.enterprise_col1{
+    width: 60%;
+    background-color: #61082b;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 1rem;   
+    text-align: left;
+    padding: 1rem;
+}
+.enterprise_col2{
+    width: 40%;
+    background-color: #61082b;
+    height: 200px;
+    border: 1px solid black;
+    margin-top: 1rem; 
+    text-align: right;  
+}
+.p{
+    margin: 2rem 0;
 }
 
