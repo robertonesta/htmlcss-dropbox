@@ -250,3 +250,18 @@ h2{
    text-align: left;
 }
 
+#sm-dp-business{
+    padding-top: 90px;
+    width: 100%;
+    height: 100%;
+    background-color: var(--db-banner);
+}
+
+.card{
+    width: 60%;
+    margin: 0 auto;
+    text-align: left;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: #d5001f;
+}
