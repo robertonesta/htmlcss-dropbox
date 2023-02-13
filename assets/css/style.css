@@ -35,6 +35,10 @@ ul{
     list-style-type: none;
 }
 
+p{
+    margin: 2rem 0;
+}
+
 /* #header */
 nav{
     position: fixed;
@@ -172,7 +176,46 @@ h2{
     margin-top: 1rem; 
     text-align: right;  
 }
-.p{
-    margin: 2rem 0;
+
+.container_db_partner{
+    width: 50%;
+    margin: 5rem auto;
+    text-align: left;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: beige;
+    font-size: 0.8rem;
+}
+.row_partner{
+    height: 400px
 }
 
+.partner_img{
+    width: 100%;
+    height: 100%;
+}
+
+.col_partner{
+    width: 65%;
+    background-color: #61082b;
+    border: 1px solid black;
+    height: 100%;
+}
+.padding_partner{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.col_partner2{
+    width: 35%;
+    background-color: #61082b;
+    border: 1px solid black;
+    height: 100%;
+}
+
+.btn_partner{
+    background-color: #ff1c1c;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    font-size: 0.8rem;
+}
