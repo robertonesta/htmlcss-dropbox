@@ -41,11 +41,31 @@ header{
     width: 100%;
     background-color: #ffd830;
 }
-
+header li{
+    padding: 1rem;
+}
 
 header .row{
     justify-content: space-between;
 }
-header li{
-    padding: 1rem;
+
+ul{
+    list-style-type: none;
 }
+
+a{
+    text-decoration: none;
+}
+/* main */
+.intro{
+    height: 500px;
+}
+
+.col h1{
+    background-color: #61082b;
+    padding-top: 6rem;
+    font-size: 2rem;
+    padding-right: 10rem;
+}
+
+
