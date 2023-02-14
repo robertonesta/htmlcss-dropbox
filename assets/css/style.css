@@ -251,16 +251,14 @@ h2{
     margin: 2rem auto;
     width: 60%;
     text-align: center;
-    border: 1px solid black;
     padding: 1rem;
-    background-color: lightseagreen;
+    background-color: var(--db-light);
 }
 .col4{
     width: calc((100% / 12) * 4);
-    border: 1PX solid BLACK;
     padding: 2rem;
     height: 100%;
-    background-color: lightgray;
+    background-color: var(--db-light);
     display: flex;
 }
 
