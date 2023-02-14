@@ -264,6 +264,69 @@ h2{
     height: 100%;
     background-color: blue;
 }
+/* companies*/
+
+.col-4{
+    width: calc((100% / 12) * 4);
+}
+
+.col-6{
+    width: calc((100% / 12) * 6);
+}
+#companies{
+    height: 100%;
+    width: 100%;
+    background-color: #white;
+    margin: 1rem 0;
+}
+
+#companies .col-4{
+    flex-wrap: wrap;
+    height: 506px;
+}
+
+.squares{
+    text-align: center;
+    padding: 3rem;
+}
+
+.companypic{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+#designit{
+    background-color: var(--db-design);
+}
+
+#asu{
+    background-color: var(--db-ASU);
+}
+
+#uf{
+    background-color: var(--db-Florida);
+}
+
+#topps{
+    background-color: var(--db-topps);
+}
+
+#wbr{
+    background-color: var(--db-WBR);
+}
+
+#hearst{
+    background-color: var(--db-hearst);
+}
+
+#lonelyplanet{
+    background-color: var(--db-lonelyplanet);
+}
+
+#cco{
+    background-color: var(--db-clearchanneloutdoor);
+}
 
 /* family section */
 
@@ -300,7 +363,7 @@ h2{
     text-align: right;
 }
 
-/* q&a section */
+/* faq section */
 
 .just_cont_space_bet{
     justify-content: space-between;
@@ -312,6 +375,11 @@ h2{
 .question {
     padding: 1rem 0;
 }
+
+.faq_symbols .fa-angle-up, .answer{
+    display: none;
+}
+
 
 /* endmain*/
 
