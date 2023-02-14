@@ -277,7 +277,6 @@ h2{
     height: 100%;
     width: 100%;
     background-color: #white;
-    margin: 1rem 0;
 }
 
 #companies .col-4{
@@ -344,8 +343,7 @@ h2{
     height: 100%;
     background-color: var(--db-family-text);
     color: var(--db-family-text);
-    margin: 2rem 0;
-    padding: 1rem 0;
+    padding: 4rem 0;
 }
 
 .col-w-70{
