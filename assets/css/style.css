@@ -61,6 +61,13 @@ a{
     text-decoration: none;
     color: black;
 }
+
+.btn_header{
+    color: var(--db-light);
+    background-color: var(--db-btn);
+    border: var(--db-btn);
+    padding: 0.25rem;
+}
 /* main */
 
 /* intro section */
@@ -84,21 +91,31 @@ h1{
     font-weight: bold;
 }
 
-
 .colbanner{
     width: 50%;
-    height: 200px;
+    height: 100%;
     margin-top: 1rem;
-    background-color: var(--db-light);
+    background-color: var(--db-banner);
 }
 
 .arrow-down{
-    align-items: flex-end;
+    border: none;
+    background-color: var(--db-banner);
+    font-size: large;
+    color: #000000;
 }
 
 img{
     width: 100%;
     margin-bottom: -5rem;
+}
+
+.btn_banner{
+    color: var(--db-light);
+    background-color: var(--db-btn);
+    border: var(--db-btn);
+    padding: 0.25rem;
+    margin: 1rem 0;
 }
 
 /* business plan section */
