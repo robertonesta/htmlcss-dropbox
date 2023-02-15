@@ -92,7 +92,7 @@ a{
 
 h1{
     font-size: 4rem;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .colbanner{
@@ -303,7 +303,9 @@ h2{
     text-align: center;
     padding: 3rem;
 }
-
+.padding{
+    padding: 1rem;
+}
 .companypic{
     width: 50%;
     justify-content: center;
@@ -449,11 +451,7 @@ h2{
 h3{
     padding-bottom: 1rem;
 }
-.b_rule{
-    color: #000000;
-    border-bottom: 1px solid white;
-    width: 100px;
-}
+
 .bottom{
     padding: 1rem 0;
     color: grey;
