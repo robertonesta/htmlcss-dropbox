@@ -42,8 +42,9 @@ ul{
 nav{
     position: fixed;
     width: 100%;
-    background-color: white;
     justify-content: center;
+    box-shadow: 1px 1px 1px grey;
+    background-color: white;
 }
 header li{
     padding: 1rem;
@@ -158,7 +159,7 @@ h2{
 }
 
 .btn_bp{
-    background-color: #ff1c1c;
+    background-color: var(--db-btn);
     color: white;
     padding: 0.5rem 1rem;
     margin: 2rem;
@@ -174,25 +175,23 @@ h2{
 .row_bp_team{
     margin-top: 2rem;
     height: 100%;
-    background-color: #ffd830;
+    background-color: var(--db-light);
     width: 100%;
-    border: 1px solid black;
+    border: 1px solid #dadaff;
 }
 
 .enterprise_col1{
     width: 60%;
-    background-color: #61082b;
+    background-color: var(--db-light);
     height: 200px;
-    border: 1px solid black;
     margin-top: 1rem;   
     text-align: left;
     padding: 1rem;
 }
 .enterprise_col2{
     width: 40%;
-    background-color: #61082b;
+    background-color: var(--db-light);
     height: 200px;
-    border: 1px solid black;
     margin-top: 1rem; 
     text-align: right;  
 }
@@ -203,9 +202,7 @@ h2{
     width: 60%;
     margin: 4rem auto;
     text-align: left;
-    border: 1px solid black;
     padding: 1rem;
-    background-color: beige;
     font-size: 0.8rem;
 }
 .row_partner{
@@ -213,14 +210,12 @@ h2{
 }
 
 .partner_img{
-    width: 100%;
+    max-width: 100%;
 }
 
 .col_partner{
     width: 65%;
-    background-color: #61082b;
-    border: 1px solid black;
-    height: 500px;
+    height: 300px;
 }
 .padding_partner{
     padding-top: 2rem;
@@ -228,13 +223,11 @@ h2{
 }
 .col_partner2{
     width: 35%;
-    background-color: #61082b;
-    border: 1px solid black;
     height: 100%;
 }
 
 .btn_partner{
-    background-color: #ff1c1c;
+    background-color: var(--db-btn);
     color: white;
     padding: 0.5rem 1rem;
     margin: 1rem;
@@ -268,7 +261,7 @@ h2{
 }
 
 .img_dpb{
-    width: 100%;
+    max-width: 100%;
 }
 .description{
     padding-top: 5rem;
@@ -279,7 +272,10 @@ h2{
     padding: 1rem 0;
     width: 100%;
     height: 100%;
-    background-color: blue;
+}
+
+#sm-dp-business a{
+    text-decoration: underline;
 }
 /* companies*/
 
@@ -356,7 +352,7 @@ h2{
 #family{
     width: 100%;
     height: 100%;
-    background-color: var(--db-family-text);
+    background-color: var(--db-banner);
     color: var(--db-family-text);
     padding: 4rem 0;
 }
@@ -374,6 +370,14 @@ h2{
 }
 .ta-right{
     text-align: right;
+}
+
+#family button{
+    color: var(--db-light);
+    background-color: var(--db-btn);
+    border: var(--db-btn);
+    padding: 0.25rem;
+    margin: 1rem 0;
 }
 
 /* faq section */
