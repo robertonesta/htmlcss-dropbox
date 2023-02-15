@@ -497,3 +497,19 @@ h3{
 #app_header li:hover{
     border-bottom: 2px solid var(--db-dark);
 }
+
+
+#faq .row-f:hover .answer,
+#faq .row-f:hover .fa-angle-up {
+  display: block;
+}
+
+#faq .row-f:hover .fa-angle-down{
+    display: none;
+}
+
+#faq .row-f:hover .answer {
+    animation: fade-in 0.1s linear;
+    animation-iteration-count: 0;
+}
+    
