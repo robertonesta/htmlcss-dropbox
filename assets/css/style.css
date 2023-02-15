@@ -154,7 +154,7 @@ h2{
 .col_bp_{
     width: calc((100% / 12) * 4);
     background-color: var(--db-light);
-    height: 100%;
+    min-height: 100%;
     border: 1px solid #dadaff;
     margin-right: 1rem;
     align-content: center;
@@ -487,3 +487,13 @@ h3{
     padding: 1rem 0;
 }
 /* /endfooter */
+
+/*effects*/
+
+#app_header li:hover{
+    cursor: pointer;
+}
+
+#app_header li:hover{
+    border-bottom: 2px solid var(--db-dark);
+}
