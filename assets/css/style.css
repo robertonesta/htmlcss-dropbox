@@ -62,6 +62,9 @@ a{
     text-decoration: none;
     color: black;
 }
+.short_hr{
+    width: 100px;
+}
 
 .btn_header{
     color: var(--db-light);
@@ -306,6 +309,13 @@ h2{
     justify-content: center;
     align-items: center;
 }
+#companies img.middle{
+    width: 50%;
+    margin: 2rem;
+}
+.square_text{
+    margin: 1rem;
+}
 
 #designit{
     background-color: var(--db-design);
@@ -321,6 +331,10 @@ h2{
 
 #topps{
     background-color: var(--db-topps);
+}
+
+.middle_bg{
+    background-color: #f5f5f5;
 }
 
 #wbr{
