@@ -66,6 +66,10 @@ a{
     width: 100px;
 }
 
+.hr_margin{
+    margin: 1rem 0;
+}
+
 .btn_header{
     color: var(--db-light);
     background-color: var(--db-btn);
@@ -142,22 +146,39 @@ h2{
     margin: 2rem 0;
 }
 .row_bp{
-    margin-inline: 0px;
+    margin-top: 1rem;
     margin-right: -1rem;
+    margin-bottom: 1rem;
 }
 
-.col_bp_title{
+.col_bp_{
     width: calc((100% / 12) * 4);
     background-color: var(--db-light);
     height: 100%;
     border: 1px solid #dadaff;
     margin-right: 1rem;
     align-content: center;
-    padding: 1rem;
+}
+.card_column_header{
+    text-align: center;
+    border: 1px solid #dadaff;
+}
+.card_column_body{
+    padding: 0.25rem 1rem;
 }
 
-.col_p{
+.price{
     margin: 1rem 0;
+}
+
+.text-muted{
+    color: grey;
+}
+
+.list-unstyled{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .btn_bp{
@@ -166,36 +187,41 @@ h2{
     padding: 0.5rem 1rem;
     margin: 2rem;
     font-size: 0.8rem;
+    border: none;
+}
+#business_plan a{
+    color: blue;
+    text-decoration: underline;
+}
+.fa-check{
+    color: var(--db-btn);
 }
 
-.br{
-    border-bottom: 1px solid black;
-    width: 100px;
-    color: white;
-}
-
-.row_bp_team{
-    margin-top: 2rem;
+.col_bp_lg{
+    width: calc((100% / 12) * 12);
+    background-color: var(--db-light);
     height: 100%;
-    background-color: var(--db-light);
-    width: 100%;
     border: 1px solid #dadaff;
+    margin-right: 1rem;
+    align-content: center;
 }
 
-.enterprise_col1{
-    width: 60%;
+.Left_section{
+    width: calc((100% / 12) * 7);
     background-color: var(--db-light);
-    height: 200px;
+    height: 100%;
     margin-top: 1rem;   
     text-align: left;
     padding: 1rem;
+
 }
-.enterprise_col2{
-    width: 40%;
+
+.right_section{
+    width: calc((100% / 12) * 5);
     background-color: var(--db-light);
-    height: 200px;
+    height: 100%;
     margin-top: 1rem; 
-    text-align: right;  
+    text-align: right;
 }
 
 /* dropbox partner section */
