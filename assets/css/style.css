@@ -310,6 +310,7 @@ h2{
     width: 50%;
     justify-content: center;
     align-items: center;
+    filter: invert(100%)
 }
 #companies img.middle{
     width: 50%;
@@ -388,10 +389,10 @@ h2{
 }
 
 #family button{
-    color: var(--db-light);
-    background-color: var(--db-btn);
-    border: var(--db-btn);
-    padding: 0.25rem;
+    color: var(--db-dark);
+    background-color: var(--db-light);
+    border: none;
+    padding: 0.5rem 1rem;
     margin: 1rem 0;
 }
 
