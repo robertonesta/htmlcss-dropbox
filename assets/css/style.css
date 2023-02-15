@@ -132,7 +132,6 @@ img{
     width: 60%;
     margin: 0 auto;
     text-align: left;
-    border: 1px solid black;
     padding: 1rem;
 }
 
@@ -146,9 +145,9 @@ h2{
 
 .col_bp_title{
     width: calc((100% / 12) * 4);
-    background-color: lightgray;
+    background-color: var(--db-light);
     height: 100%;
-    border: 1px solid black;
+    border: 1px solid #dadaff;
     margin-right: 1rem;
     align-content: center;
     padding: 1rem;
@@ -169,7 +168,7 @@ h2{
 .br{
     border-bottom: 1px solid black;
     width: 100px;
-    color: lightgray;
+    color: white;
 }
 
 .row_bp_team{
@@ -227,8 +226,8 @@ h2{
 }
 
 .btn_partner{
-    background-color: var(--db-btn);
-    color: white;
+    background-color: var(--db-light);
+    color: black;
     padding: 0.5rem 1rem;
     margin: 1rem;
     font-size: 0.8rem;
